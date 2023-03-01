@@ -1,0 +1,52 @@
+body {
+    background: url(imagenes/fondo\ de\ oficina.jpg);
+    background-size: 100%;
+}
+
+img{
+    height: 200px;
+}
+
+header{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 40px 25px 20px 15px;
+    padding: 40px 25px 20px 15px;
+}
+
+.exp-laboral{
+    margin: 20px 10px 10px 100px;
+    padding: 20px 10px 10px 100px;
+}
+
+.boton{
+     text-align: center;
+     padding-top: 30px;
+     padding-left: 30px;
+     position: sticky;
+     top: 0;    
+}
+
+a:link{
+color: blue;
+}
+
+a:hover{
+color: rgb(9, 255, 0);
+}
+
+a:active{
+color: rgb(255, 0, 212);
+}
+
+.contenedor{
+    display: flex;
+}
+
+.columna{
+    flex-basis: 50%;
+    float: left;
+}
+
+p{
+    font-family:'Golos Text',sans-serif, 'Times New Roman', Times, serif;
+}
